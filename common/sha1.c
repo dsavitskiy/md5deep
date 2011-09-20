@@ -14,7 +14,7 @@
 
 /* $Id: sha1.c 49 2008-03-05 02:31:38Z jessekornblum $ */
 
-#include "main.h"
+#include "../md5deep/main.h"
 //#include "sha1.h"
 
 

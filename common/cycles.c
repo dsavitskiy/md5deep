@@ -12,7 +12,7 @@
 //
 // $Id: cycles.c 250 2010-12-15 19:12:06Z jessekornblum $
 
-#include "main.h"
+#include "../md5deep/main.h"
 
 
 typedef struct dir_table {

@@ -11,7 +11,7 @@
 //
 // $Id: ui.c 172 2009-01-16 10:36:59Z jessekornblum $ 
 
-#include "main.h"
+#include "../md5deep/main.h"
 #include <stdarg.h>
 
 #define MD5DEEP_PRINT_MSG(HANDLE,MSG) \

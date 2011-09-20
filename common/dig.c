@@ -14,7 +14,7 @@
 
 // $Id: dig.c 362 2011-07-04 04:21:30Z jessekornblum $
 
-#include "main.h"
+#include "../md5deep/main.h"
 
 
 #ifndef _WIN32

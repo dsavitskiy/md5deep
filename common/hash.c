@@ -12,7 +12,7 @@
 // $Id: hash.c 272 2011-04-23 21:05:35Z jessekornblum $
 
 
-#include "main.h"
+#include "../md5deep/main.h"
 
 #ifdef __MD5DEEP_H
 

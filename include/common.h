@@ -4,9 +4,10 @@
 #ifndef __COMMON_H
 #define __COMMON_H
 
-#ifdef HAVE_CONFIG_H
-# include "config.h"
-#endif
+//#ifdef HAVE_CONFIG_H
+//# include "config.h"
+//#endif
+#include "md5deep-config.h"
 
 #ifdef _WIN32
 // Required to enable 64-bit stat functions
@@ -93,12 +94,13 @@ NEWLINE, NEWLINE, NEWLINE
 # include <fcntl.h>
 #endif
 
-#ifdef HAVE_INTTYPES_H
-# include <inttypes.h>
-#else
-// This should really have been caught during configuration, but just in case...
-# error Unable to work without inttypes.h!
-#endif
+//#ifdef HAVE_INTTYPES_H
+//# include <inttypes.h>
+//#else
+//// This should really have been caught during configuration, but just in case...
+//# error Unable to work without inttypes.h!
+//#endif
+#include <stdint.h>
 
 // A few operating systems (e.g. versions of OpenBSD) don't meet the 
 // C99 standard and don't define the PRI??? macros we use to display 
@@ -144,12 +146,12 @@ NEWLINE, NEWLINE, NEWLINE
 
 
 
-// On non-glibc systems we have to manually set the __progname variable 
-#ifdef __GLIBC__
-extern char *__progname;
-#else
-char *__progname;
-#endif // ifdef __GLIBC__ 
+//// On non-glibc systems we have to manually set the __progname variable 
+//#ifdef __GLIBC__
+//extern char *__progname;
+//#else
+//char *__progname;
+//#endif // ifdef __GLIBC__ 
 
 // Set up the environment for the *nix operating systems (Mac, Linux, 
 // BSD, Solaris, and really everybody except Microsoft Windows) 

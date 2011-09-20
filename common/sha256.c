@@ -13,7 +13,7 @@
 
 /* $Id: sha256.c 141 2008-07-19 15:59:57Z jessekornblum $ */
 
-#include "main.h"
+#include "../md5deep/main.h"
 #include <string.h>
 #include "sha256.h"
 
